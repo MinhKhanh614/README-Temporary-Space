@@ -1,6 +1,6 @@
 # Mạch MakerEdu Shield for Micro:bit
 
-![Micro:bit MakerEDU Shield Board](microbit1.jpg)
+![Micro:bit MakerEDU Shield Board](/temp_link_microbit_shield/image/microbit1.jpg)
 
 ## Giới thiệu
 
@@ -63,17 +63,17 @@ Mạch MakerEdu Shield for Micro:bit được thiết kế để có thể tươ
 
 ## Hình ảnh sản phẩm
 
-![](microbit2.jpg)
+![](/temp_link_microbit_shield/image/microbit2.jpg)
 
 ## Kích thước sản phẩm
 
-![](microbit3.jpg)
+![](/temp_link_microbit_shield/image/microbit3.jpg)
 
 ## Hướng dẫn sử dụng
 
 ### Các tính năng vượt trội
 
-![MakerEdu Shield for Micro:bit Advance Function](microbit4.jpg)
+![MakerEdu Shield for Micro:bit Advance Function](/temp_link_microbit_shield/image/microbit4.jpg)
 
 1. Mạch MakerEdu Shield for Micro:bit là một bo mạch trung gian giúp bạn kết nối Micro:bit với các mạch trong hệ sinh thái phần cứng Robotics MakerEdu với chuẩn kết nối connector XH2.54 chắc chắn, chống ngược và dễ dàng tháo lắp khi sử dụng với các mạch module chức năng MakerEdu Module và cảm biến MakerEdu Sensor.
 2. Cấp nguồn qua cổng MicroUSB dễ dàng và an toàn, có thể sử dụng pin dự phòng (Power Bank), nguồn sạc điện thoại hoặc nguồn từ cổng USB máy tính để cấp nguồn cho mạch MakerEdu Shield for Micro:bit
@@ -85,7 +85,7 @@ Mạch MakerEdu Shield for Micro:bit được thiết kế để có thể tươ
 ### Các lưu ý
 
 ![MakerEdu Shield for Micro:bit connect with Motor
-](microbit5.jpg)
+](/temp_link_microbit_shield/image/microbit5.jpg)
 
 #### 1) Cấp nguồn
 
@@ -110,11 +110,11 @@ Các bạn bắt buộc phải cấp nguồn qua cổng MicroUSB của MakerEdu 
 
 ### Cách kết nối
 
-![Kết nối chiều biểu tượng logo màu vàng của Micro:bit hướng theo chiều ký hiệu trên MakerEdu Shield.](microbit6.jpg)
+![Kết nối chiều biểu tượng logo màu vàng của Micro:bit hướng theo chiều ký hiệu trên MakerEdu Shield.](/temp_link_microbit_shield/image/microbit6.jpg)
 
 Sau khi kết nối thành công, cấp nguồn vào cổng MicroUSB của MakerEdu Shield sẽ thấy đèn nguồn trên Micro:bit và MakerEdu Shield sáng như hình:
 
-![Đèn nguồn trên Micro:bit và MakerEdu Shield phát sáng báo hiệu kết nối thành công.](microbit7.jpg)
+![Đèn nguồn trên Micro:bit và MakerEdu Shield phát sáng báo hiệu kết nối thành công.](/temp_link_microbit_shield/image/microbit7.jpg)
 
 ## Hướng dẫn sử dụng phần mềm MakeCode với mạch Micro:bit + MakerEdu Shield for Micro:bit
 

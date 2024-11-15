@@ -15,11 +15,11 @@ Mạch MakerEdu Shield for Vietduino tương thích với các mạch điều kh
 > **Lưu ý:**
 Mạch MakerEdu Shield for Vietduino sẽ tương thích tốt nhất khi sử dụng với các mạch Vietduino giúp phát huy tối đa các chức năng của mạch.
 
-![](Vuno_shield1.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield1.jpg)
 
 > Dự án "Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh" với module hiển thị LCD, cảm biến nhiệt độ độ ẩm, cảm biến ánh sáng, module còi báo động kết nối với Vietduino Uno qua MakerEdu Shield.
 
-![](Vuno_shield2.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield2.jpg)
 
 > Một dự án tương tự với cảm biến nhiệt độ độ ẩm và màn hình LCD nối bằng dây cắm đơn qua Breadboard.
 >
@@ -75,17 +75,17 @@ Mạch MakerEdu Shield for Vietduino sẽ tương thích tốt nhất khi sử d
 
 ## Hình ảnh sản phẩm
 
-![](Vuno_shield3.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield3.jpg)
 
 ## Kích thước sản phẩm
 
-![](Vuno_shield4.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield4.jpg)
 
 ## Hướng dẫn sử dụng
 
 ### Các chức năng chính trên mạch
 
-![](Vuno_shield5.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield5.jpg)
 
 1. _**Nút nhấn Reset:**_ được nối với chân Reset (RST) của Arduino hoặc các bo mạch tương thích, sử dụng để khởi động lại (Reset) chương trình.
 2. _**Cổng cấp nguồn Domino:**_ được nối với chân VIN của Arduino hoặc các bo mạch tương thích, sử dụng để cấp nguồn cho mạch hoạt động hoặc lấy áp từ chân VIN của Arduino cấp cho các mạch khác, lưu ý không cấp ngược nguồn âm (-) và dương (+) và không cấp quá điện áp quy định dưới đây:
@@ -104,14 +104,14 @@ Mạch MakerEdu Shield for Vietduino sẽ tương thích tốt nhất khi sử d
 
 #### Kết nối MakerEdu Shield với Vietduino Uno
 
-![](Vuno_shield6.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield6.jpg)
 
 **Lưu ý khi kết nối:**
 
 1. Cần cắm chặt và chính xác các chân kết nối của MakerEdu Shield với Vietduino.  
 2. Đèn nguồn trên MakerEdu Shield sẽ phát sáng khi các chân được kết nối chặt, khớp và đúng thứ tự.
 
-![](Vuno_shield7.jpg)
+![](/temp_link_Vuno_shield/image/Vuno_shield7.jpg)
 
 ## Các thiết bị sử dụng trong bài
 
