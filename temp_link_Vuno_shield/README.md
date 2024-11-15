@@ -81,55 +81,6 @@ Mạch MakerEdu Shield for Vietduino sẽ tương thích tốt nhất khi sử d
 
 ![](Vuno_shield4.jpg)
 
-## Các chân cắm
-
-<table><thead>
-  <tr>
-    <th>Tên</th>
-    <th>SL</th>
-    <th>Type</th>
-    <th>Ghi chú</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>Digital I/O (3 pin)</td>
-    <td>3</td>
-    <td>PORT 3 pin XH2.54</td>
-    <td>D9, D10, D11 (có PWM)</td>
-  </tr>
-  <tr>
-    <td>Digital I/O (4 pin)</td>
-    <td>1</td>
-    <td>PORT 4 pin XH2.54</td>
-    <td>D12, D13</td>
-  </tr>
-  <tr>
-    <td>Analog Input</td>
-    <td>3</td>
-    <td>PORT 3 pin XH2.54</td>
-    <td>A1, A2, A3</td>
-  </tr>
-  <tr>
-    <td>I2C COM</td>
-    <td>5</td>
-    <td>PORT 4 pin XH2.54</td>
-    <td>A4, A5</td>
-  </tr>
-  <tr>
-    <td>UART COM</td>
-    <td>1</td>
-    <td>PORT 4 pin XH2.54</td>
-    <td>D0, D1</td>
-  </tr>
-  <tr>
-    <td>POWER+</td>
-    <td>1</td>
-    <td>PORT 4 pin XH2.54</td>
-    <td>Vin, 5V, 3V3, GND</td>
-  </tr>
-</tbody>
-</table>
-
 ## Hướng dẫn sử dụng
 
 ### Các chức năng chính trên mạch
@@ -162,21 +113,23 @@ Mạch MakerEdu Shield for Vietduino sẽ tương thích tốt nhất khi sử d
 
 ![](Vuno_shield7.jpg)
 
-## Các thiết bị sử dụng trong bài hướng dẫn
+## Các thiết bị sử dụng trong bài
+
+### Vietduino
+
+- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
+- [Cảm biến độ ẩm nhiệt độ MKE-S14 DHT11 Temperature and Humidity Sensor](https://www.makerlab.vn/mkes14)
+- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
+- [Cảm biến ánh sáng quang trở MKE-S02 LDR Light Sensor](https://www.makerlab.vn/mkem02)
+- [Mạch còi báo MKE-M03 Buzzer Module](https://www.makerlab.vn/mkem03)
+- [Cáp kết nối MakerEdu XH2.54 3Wires 20cm Cable](https://hshop.vn/cap-ket-noi-makeredu-xh2-54-3wires-20cm-cable)
+- [Cáp kết nối MakerEdu XH2.54 4Wires 20cm Cable](https://hshop.vn/cap-ket-noi-makeredu-xh2-54-4wires-20cm-cable)
 
 ### Arduino
 
-- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
-- [Mạch MakerEdu Shield for Vietduino]()
-- [Mạch led đơn MKE-M01 10mm single LED module***]()
-
-### Hướng dẫn sử dụng với Arduino (Code C)
-  
-[Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
-
-- Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
-- Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MAKERLABVN" by MakerLab.vn**
-- Mở chương trình mẫu
+- [Mạch Uno (Arduino Uno Compatible)](https://hshop.vn/arduino-uno-r3)
+- [Cảm Biến Độ Ẩm, Nhiệt Độ DHT11 Temperature Humidity Sensor ra chân](https://hshop.vn/cam-bien-do-am-nhiet-do-dht11-ra-chan)
+- [Màn hình LCD text LCD1602 xanh dương](https://hshop.vn/lcd-text-lcd1602-xanh-duong)
 
 ## Hỗ trợ và liên hệ
 
