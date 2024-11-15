@@ -1,5 +1,5 @@
 # Mạch MakerEdu Creator
-
+![](/temp_link_makercreator/creator1.jpg)
 ## Giới thiệu
 
 MakerEdu Creator mà mạch điều khiển trung tâm trong hệ sinh thái phần cứng Robotics MakerEdu với 3 chức năng chính:
@@ -10,78 +10,94 @@ MakerEdu Creator mà mạch điều khiển trung tâm trong hệ sinh thái ph�
 
 Mạch MakerEdu Creator được thiết kế dựa trên nền tảng là mạch Arduino Uno nên hoàn toàn tương thích với các phần mềm:
 
-- Phần mềm Arduino (chọn Device là Arduino Uno).
-- Phần mềm Mblock (chọn Device là MakerEdu Creator).
-- Phần mềm PictoBlox (Chọn Device là Arduino Uno).
-
-> **Lưu ý:**
-Mạch MakerEdu Shield for Vietduino sẽ tương thích tốt nhất khi sử dụng với các mạch Vietduino giúp phát huy tối đa các chức năng của mạch.
-
-![](/temp_link_Vuno_shield/image/Vuno_shield1.jpg)
-
-> Dự án "Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh" với module hiển thị LCD, cảm biến nhiệt độ độ ẩm, cảm biến ánh sáng, module còi báo động kết nối với Vietduino Uno qua MakerEdu Shield.
-
-![](/temp_link_Vuno_shield/image/Vuno_shield2.jpg)
-
-> Một dự án tương tự với cảm biến nhiệt độ độ ẩm và màn hình LCD nối bằng dây cắm đơn qua Breadboard.
->
 ## Thông số kỹ thuật
 
 <table><thead>
   <tr>
     <th>Model</th>
-    <th>MakerEdu Shield for Vietduino</th>
+    <th>MakerEdu Creator</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td>Chuẩn kết nối với mạch điều khiển trung tâm</td>
-    <td>Arduino Shield</td>
+    <td>Vi điều khiển</td>
+    <td>ATmega328P-PU</td>
   </tr>
   <tr>
-    <td>Chuẩn Conector</td>
-    <td>XH2.54 3Pins / 4Pins</td>
+    <td>Điện áp hoạt động</td>
+    <td>5VDC từ cổng USB-C</td>
   </tr>
   <tr>
-    <td>Nguồn đầu vào</td>
-    <td>VIN từ Domino hoặc VIN từ mạch điều khiển trung tâm</td>
+    <td>Digital Port</td>
+    <td>D10, D11, D12, D3+D2</td>
   </tr>
   <tr>
-    <td>Cổng Digital I/O đơn</td>
-    <td>7 cổng: A1, A2, A3, D9, D10, D11 (Digital Signal-5V-GND)</td>
+    <td>Analog Port</td>
+    <td>A1, A2, A3</td>
   </tr>
   <tr>
-    <td>Cổng Digital I/O đôi</td>
-    <td>1 cổng: D12+D13 (D12-D13-5V-GND)</td>
+    <td>I2C Port</td>
+    <td>3 x I2C (SDA: A4 / SCL: A5)</td>
   </tr>
   <tr>
-    <td>Cổng Analog Input</td>
-    <td>3 cổng: A1, A2, A3 (Analog Signal-5V-GND)</td>
+    <td>Uart Port</td>
+    <td>1 x UART (RX: D0 / TX: D1)</td>
   </tr>
   <tr>
-    <td>Cổng giao tiếp I2C</td>
-    <td>5 cổng (SCL-SDA-5V-GND)</td>
+    <td>RC Servo motor control Port</td>
+    <td>D10, D11</td>
   </tr>
   <tr>
-    <td>Cổng giao tiếp UART</td>
-    <td>1 cổng (TX-RX-5V-GND)</td>
+    <td rowspan="2">DC motor control port</td>
+    <td>Motor_A (Speed: D6 / Direction: D8, D9)</td>
   </tr>
   <tr>
-    <td>Cổng cấp nguồn đầu ra bổ sung POWER+</td>
-    <td>1 cổng Output (3V3-5V-VIN-GND)</td>
+    <td>Motor_B (Speed: D5 / Direction: D4, D7)</td>
   </tr>
   <tr>
-    <td>Tích hợp</td>
-    <td>Led nguồn, nút nhấn Reset</td>
+    <td>Dòng DC đầu ra các chân I/O</td>
+    <td>Max 20mA</td>
+  </tr>
+  <tr>
+    <td>Flash Memory</td>
+    <td>32KB với 0.5 KB sử dụng cho bootloader</td>
+  </tr>
+  <tr>
+    <td>SRAM</td>
+    <td>2KB</td>
+  </tr>
+  <tr>
+    <td>EEPROM</td>
+    <td>1KB</td>
+  </tr>
+  <tr>
+    <td>Clock Speed</td>
+    <td>16MHz</td>
+  </tr>
+  <tr>
+    <td>LED_BUILTIN</td>
+    <td>D13</td>
+  </tr>
+  <tr>
+    <td>IC nạp chương trình và giao tiếp UART</td>
+    <td>CH340</td>
+  </tr>
+  <tr>
+    <td>Cổng giao tiếp máy tính</td>
+    <td>USB-C</td>
+  </tr>
+  <tr>
+    <td>Tương tích hệ điều hành</td>
+    <td>Windows / MacOS / Linux</td>
   </tr>
 </tbody></table>
 
 ## Hình ảnh sản phẩm
 
-![](/temp_link_Vuno_shield/image/Vuno_shield3.jpg)
+![](/temp_link_makercreator/creator1.jpg)
 
 ## Kích thước sản phẩm
 
-![](/temp_link_Vuno_shield/image/Vuno_shield4.jpg)
+![](/temp_link_makercreator/creator2.jpg)
 
 ## Hướng dẫn sử dụng
 
