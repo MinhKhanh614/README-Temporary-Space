@@ -1,5 +1,7 @@
 # Mạch MakerEdu Creator
+
 ![](/temp_link_makercreator/creator1.jpg)
+
 ## Giới thiệu
 
 MakerEdu Creator mà mạch điều khiển trung tâm trong hệ sinh thái phần cứng Robotics MakerEdu với 3 chức năng chính:
@@ -93,61 +95,126 @@ Mạch MakerEdu Creator được thiết kế dựa trên nền tảng là mạc
 
 ## Hình ảnh sản phẩm
 
-![](/temp_link_makercreator/creator1.jpg)
+![](/temp_link_makercreator/creator5.jpg)
 
 ## Kích thước sản phẩm
 
 ![](/temp_link_makercreator/creator2.jpg)
 
-## Hướng dẫn sử dụng
+## Các tính năng vượt trội
 
-### Các chức năng chính trên mạch
+![](/temp_link_makercreator/creator3.jpg)
 
-![](/temp_link_Vuno_shield/image/Vuno_shield5.jpg)
+1. Mạch MakerEdu Creator thuộc hệ sinh thái phần cứng Robotics MakerEdu với chuẩn kết nối connector XH2.54 chắc chắn, chống ngược và dễ dàng tháo lắp khi sử dụng với các mạch module chức năng (MakerEdu Module) và cảm biến (MakerEdu Sensor).
+1. Cấp nguồn qua cổng USB-C dễ dàng và an toàn, có thể sử dụng pin dự phòng (Power Bank), nguồn sạc điện thoại hoặc nguồn từ cổng USB máy tính để cấp nguồn cho mạch MakerEdu Creator.
+1. Tích hợp 2 cổng điều khiển 2 x Động cơ RC Servo.
+1. Tích hợp Driver điều khiển 2 x Động cơ DC.
+1. Vỏ Mica bảo vệ an toàn, tránh chập chạm.
+1. Tương thích với hầu hết các hệ điều hành Windows / MacOS / Linux và các phần mềm lập trình phổ biến: Arduino, Mblock, PictoBlox,...
 
-1. _**Nút nhấn Reset:**_ được nối với chân Reset (RST) của Arduino hoặc các bo mạch tương thích, sử dụng để khởi động lại (Reset) chương trình.
-2. _**Cổng cấp nguồn Domino:**_ được nối với chân VIN của Arduino hoặc các bo mạch tương thích, sử dụng để cấp nguồn cho mạch hoạt động hoặc lấy áp từ chân VIN của Arduino cấp cho các mạch khác, lưu ý không cấp ngược nguồn âm (-) và dương (+) và không cấp quá điện áp quy định dưới đây:
-    - Với các mạch Arduino sử dụng IC giảm áp LM1117 5VDC: điện áp VIN cấp từ 6~9VDC.
-    - Với mạch Vietduino sử dụng nguồn xung giảm áp: điện áp VIN từ 6~24VDC.
-3. _**Cổng giao tiếp I2C:**_ chuẩn cắm Conector XH2.54 4Pins (4 chân), được sử dụng để giao tiếp với cách bo mạch, module, cảm biến sử dụng giao tiếp I2C, thứ tự các chân tín hiệu: SCL-SDA-5V-GND, có tổng cộng 5 cổng I2C với các chân tín hiệu được nối song song (tương đương nhau).
-4. _**Cổng Digital I/O đôi:**_ chuẩn cắm Conector XH2.54 4Pins (4 chân), được sử dụng để giao tiếp với các bo mạch, module, cảm biến với 2 chân Digital I/O là D12 và D13 như cảm biến siêu âm hoặc có thể sử dụng như cổng Software Serial UART, thứ tự các chân tín hiệu: D12-D13-5V-GND.
-5. _**Cổng giao tiếp UART:**_ chuẩn cắm Conector XH2.54 4Pins (4 chân) được sử dụng để giao tiếp với cách bo mạch, module, cảm Biến sử dụng giao tiếp UART, thứ tự các chân tín hiệu: TX-RX-5V-GND.
-6. _**Cổng Digital I/O đơn:**_ chuẩn cắm Conector XH2.54 3Pins (3 chân), được sử dụng để giao tiếp với các bo mạch, module, cảm biến sử dụng tín hiệu Digital, thứ tự các chân tín hiệu: Digital I/O-5V-GND, có tổng cộng 3 cổng Digital I/O đơn được nối với các chân tín hiệu là: D9, D10, D11, thứ tự các chân tín hiệu: Digital Signal-5V-GND.
-7. _**Cổng cấp nguồn đầu ra bổ sung POWER+:**_ là cổng OUTPUT (đầu ra), được sử dụng để cấp nguồn cho các bo mạch, module, cảm biến cần sử dụng thêm các tín hiệu nguồn cấp bổ sung như: mạch relay, mạch điều khiển động cơ,..., thứ tự các chân tín hiệu: 3V3-5V-VIN-GND.
-8. _**Cầu phân áp VIN:**_ là cầu phân áp được nối với chân VIN, đầu ra của cầu phân áp sẽ trả ra giá trị là VOUT = VIN/5.7 được nối vào chân tín hiệu Analog A0 trên mạch, được sử dụng để đo giá trị của VIN trong các trường hợp: xác định mức pin, báo hiệu hết pin,...
-9. _**Cổng Analog Input:**_ chuẩn cắm Conector XH2.54 3Pins (3 chân), được sử dụng để giao tiếp với các bo mạch, module, cảm biến sử dụng tín hiệu Analog, thứ tự các chân tín hiệu: Analog Signal-5V-GND, có tổng cộng 3 cổng Analog Input được nối với các chân tín hiệu là: A1, A2, A3 (lưu ý đối với Arduino thì chân Analog còn có thể sử dụng như chân Digital nên cũng có thể sử dụng các cổng Analog Input này với chức năng như các cổng Digital I/O đơn).
-10. _**Đèn báo nguồn:**_ đèn sẽ sáng báo hiệu khi mạch MakerEdu Shield for Vietduino đã được cấp nguồn.
+## Các lưu ý
 
-### Cách kết nối
+![](/temp_link_makercreator/creator4.jpg)
 
-#### Kết nối MakerEdu Shield với Vietduino Uno
+### 1) Cấp nguồn
 
-![](/temp_link_Vuno_shield/image/Vuno_shield6.jpg)
+Mạch MakerEdu Creator sử dụng nguồn chính từ cổng USB-C để cấp nguồn 5VDC cho hệ thống hoạt động gồm bộ xử lý, cổng kết nối và động cơ. Các bạn có thể lựa chọn cấp nguồn từ cổng USB của máy tính, các loại nguồn cấp bằng cổng USB hoặc với các ứng dụng di động như robot có thể cấp nguồn bằng sạc dự phòng, loại sạc dự phòng khuyến nghị sử dụng:
 
-**Lưu ý khi kết nối:**
+- [Pin dự phòng USB-C 5VDC 2A 5000mAh Mini Power Bank](https://hshop.vn/pin-du-phong-usb-c-5vdc-2a-5000mah-mini-power-bank)
 
-1. Cần cắm chặt và chính xác các chân kết nối của MakerEdu Shield với Vietduino.  
-2. Đèn nguồn trên MakerEdu Shield sẽ phát sáng khi các chân được kết nối chặt, khớp và đúng thứ tự.
+### 2) Động cơ DC
 
-![](/temp_link_Vuno_shield/image/Vuno_shield7.jpg)
+Động cơ DC sử dụng phải là loại có thể hoạt động ở điện áp 5VDC, với dòng điện tiêu thụ tối đa 800mA, các loại động cơ khuyến nghị sử dụng:
 
-## Các thiết bị sử dụng trong bài
+- [Động cơ DC giảm tốc V1 Dual Shaft Plastic Geared TT Motor + bánh xe](https://hshop.vn/dong-co-dc-giamtoc-v1-1-48)
+- [Bộ động cơ DC giảm tốc GA12 N20 kèm gá bắt và bánh xe V1 34mm](https://hshop.vn/bo-dong-co-dc-giam-toc-ga12-n20-kem-ga-bat-va-banh-xe-v1-34mm)
+- [Động cơ bơm chìm Mini Water Pump 5VDC](https://hshop.vn/dong-co-bom-chim-mini-5vdc) (lưu ý với động cơ bơm cần phải cấp đúng chiều + và - không sẽ làm hỏng cấu trúc động cơ).
 
-### Vietduino
+### 3) Động cơ RC Servo
 
-- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
-- [Cảm biến độ ẩm nhiệt độ MKE-S14 DHT11 Temperature and Humidity Sensor](https://www.makerlab.vn/mkes14)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-- [Cảm biến ánh sáng quang trở MKE-S02 LDR Light Sensor](https://www.makerlab.vn/mkem02)
-- [Mạch còi báo MKE-M03 Buzzer Module](https://www.makerlab.vn/mkem03)
-- [Cáp kết nối MakerEdu XH2.54 3Wires 20cm Cable](https://hshop.vn/cap-ket-noi-makeredu-xh2-54-3wires-20cm-cable)
-- [Cáp kết nối MakerEdu XH2.54 4Wires 20cm Cable](https://hshop.vn/cap-ket-noi-makeredu-xh2-54-4wires-20cm-cable)
+Động cơ RC Servo sử dụng phải là loại có thể hoạt động ở điện áp 5VDC, động cơ RC Servo sử dụng trực tiếp nguồn từ cổng USB-C của MakerEdu Creator nên khi sử dụng cần cấp nguồn với dòng điện đủ để động cơ có thể hoạt động bình thường, động cơ khuyến nghị sử dụng:
 
-### Arduino
+- [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
+- [Động cơ RC Servo MG90S](https://hshop.vn/dong-co-rc-servo-mg90s)
 
-- [Mạch Uno (Arduino Uno Compatible)](https://hshop.vn/arduino-uno-r3)
-- [Cảm Biến Độ Ẩm, Nhiệt Độ DHT11 Temperature Humidity Sensor ra chân](https://hshop.vn/cam-bien-do-am-nhiet-do-dht11-ra-chan)
-- [Màn hình LCD text LCD1602 xanh dương](https://hshop.vn/lcd-text-lcd1602-xanh-duong)
+## Hướng dẫn sử dụng với phần mềm Arduino
+
+### Hướng dẫn sử dụng phần mềm Arduino cơ bản
+
+1) Giới thiệu về Arduino
+
+2) Ngôn ngữ lập trình Arduino
+
+3) Cách cài đặt phần mềm Arduino IDE
+
+4) Cách cài đặt Driver và nạp chương trình cho mạch Arduino / Arduino Compatible
+
+5) Cách cài đặt các thư viện phần cứng Arduino Library
+
+6) Cách sử dụng Serial Monitor & Serial Plotter trên phần mềm Arduino
+
+### Hướng dẫn kết nối và nạp chương trình mẫu cho Mạch MakerEdu Creator trên phần mềm Arduino
+
+1) Kết nối máy tính: Kết nối Mạch MakerEdu Creator với máy tính bằng cáp USB-C sẽ thấy Led nguồn PWR trên mạch phát sáng.
+
+![](/temp_link_makercreator/creator6.jpg)
+
+2) Cài đặt Driver: Mạch MakerEdu Creator là một mạch Arduino Uno Compatible (tương thích Arduino Uno) sử dụng IC nạp chương trình và giao tiếp máy tính CH340, các bạn có thể tham khảo Hướng dẫn cài đặt Driver cho các mạch sử dụng IC giao tiếp USB-UART CH34x - MakerLab Wiki.
+
+3) Cấu hình mạch trên phần mềm Arduino: Để cấu hình mạch trên phần mềm Arduino chúng ta cần làm các bước sau:
+    - Thiết lập Board tại Tools > Board > Arduino AVR Boards > Arduino Uno và Port (cổng kết nối) cho mạch, nếu không xác định được cổng kết nối có thể ngắt kết nối mạch và kết nối lại đồng thời kiểm tra phần Port để thấy cổng kết nối mới của mạch xuất hiện:
+
+![](/temp_link_makercreator/creator7.jpg)
+
+- Sau khi đã hoàn thành các thiết lập cơ bản bạn có thể nạp chương trình Blink sau vào mạch MakerEdu Creator trên phần mềm Arduino bằng cách nhấn vào nút Upload hoặc chọn Sketch > Upload sẽ thấy đèn Led L13 trên mạch chớp tắt 1 giây 1 lần:
+
+```ino
+/*
+  Blink
+  Turns an LED_BUILTIN on D13 of MakerEdu Creator for one second, then off for one second, repeatedly.
+*/
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN on D13 as an output.
+  pinMode(13, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(13, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(13, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+```
+
+![](/temp_link_makercreator/creator8.jpg)
+
+## Hướng dẫn sử dụng với phần mềm mBlock
+
+### Hướng dẫn sử dụng phần mềm mBlock với mạch MakerEdu Creator
+
+1) Giới thiệu và hướng dẫn cài đặt phần mềm mBlock
+
+2) Giới thiệu mạch MakerEdu Creator
+
+3) Cách cài đặt Driver và Device cho mạch MakerEdu Creator trên phần mềm mBlock
+
+4) Các khối lệnh cơ bản của mạch MakerEdu Creator trên phần mềm mBlock
+
+5) Cách cài đặt Extension và giới thiệu các khối lệnh cho phần cứng MakerEdu trên phần mềm mBlock
+
+6) Cách sử dụng Extension Upload Mode Broadcast trên phần mềm mBlock
+
+### Hướng dẫn kết nối và nạp chương trình cho Mạch MakerEdu Creator trên phần mềm Mblock
+
+1) Kết nối máy tính: Kết nối Mạch MakerEdu Creator với máy tính bằng cáp USB-C sẽ thấy Led nguồn PWR trên mạch phát sáng như ở phần hướng dẫn Arduino.
+
+2) Cài đặt Driver và Cấu hình Device: Cài đặt Driver và cấu hình Mạch MakerEdu Creator trên phần mềm Mblock theo hướng dẫn tại đây.
+
+3) Nạp chương trình mẫu: Nạp chương trình chớp tắt đèn Led L13 trên mạch MakerEdu Creator với phần mềm Mblock để kiểm tra hoạt động:
+
+![](/temp_link_makercreator/creator9.png)
 
 ## Hỗ trợ và liên hệ
 
