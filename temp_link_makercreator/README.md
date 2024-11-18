@@ -1,6 +1,6 @@
 # Mạch MakerEdu Creator
 
-![](/temp_link_makercreator/creator1.jpg)
+![](/image/creator1.jpg)
 
 ## Giới thiệu
 
@@ -95,15 +95,15 @@ Mạch MakerEdu Creator được thiết kế dựa trên nền tảng là mạc
 
 ## Hình ảnh sản phẩm
 
-![](/temp_link_makercreator/creator5.jpg)
+![](/image/creator5.jpg)
 
 ## Kích thước sản phẩm
 
-![](/temp_link_makercreator/creator2.jpg)
+![](/image/creator2.jpg)
 
 ## Các tính năng vượt trội
 
-![](/temp_link_makercreator/creator3.jpg)
+![](/image/creator3.jpg)
 
 1. Mạch MakerEdu Creator thuộc hệ sinh thái phần cứng Robotics MakerEdu với chuẩn kết nối connector XH2.54 chắc chắn, chống ngược và dễ dàng tháo lắp khi sử dụng với các mạch module chức năng (MakerEdu Module) và cảm biến (MakerEdu Sensor).
 1. Cấp nguồn qua cổng USB-C dễ dàng và an toàn, có thể sử dụng pin dự phòng (Power Bank), nguồn sạc điện thoại hoặc nguồn từ cổng USB máy tính để cấp nguồn cho mạch MakerEdu Creator.
@@ -114,7 +114,7 @@ Mạch MakerEdu Creator được thiết kế dựa trên nền tảng là mạc
 
 ## Các lưu ý
 
-![](/temp_link_makercreator/creator4.jpg)
+![](/image/creator4.jpg)
 
 ### 1) Cấp nguồn
 
@@ -157,14 +157,14 @@ Mạch MakerEdu Creator sử dụng nguồn chính từ cổng USB-C để cấp
 
 1) Kết nối máy tính: Kết nối Mạch MakerEdu Creator với máy tính bằng cáp USB-C sẽ thấy Led nguồn PWR trên mạch phát sáng.
 
-![](/temp_link_makercreator/creator6.jpg)
+![](/image/creator6.jpg)
 
 2) Cài đặt Driver: Mạch MakerEdu Creator là một mạch Arduino Uno Compatible (tương thích Arduino Uno) sử dụng IC nạp chương trình và giao tiếp máy tính CH340, các bạn có thể tham khảo Hướng dẫn cài đặt Driver cho các mạch sử dụng IC giao tiếp USB-UART CH34x - MakerLab Wiki.
 
 3) Cấu hình mạch trên phần mềm Arduino: Để cấu hình mạch trên phần mềm Arduino chúng ta cần làm các bước sau:
     - Thiết lập Board tại Tools > Board > Arduino AVR Boards > Arduino Uno và Port (cổng kết nối) cho mạch, nếu không xác định được cổng kết nối có thể ngắt kết nối mạch và kết nối lại đồng thời kiểm tra phần Port để thấy cổng kết nối mới của mạch xuất hiện:
 
-![](/temp_link_makercreator/creator7.jpg)
+![](/image/creator7.jpg)
 
 - Sau khi đã hoàn thành các thiết lập cơ bản bạn có thể nạp chương trình Blink sau vào mạch MakerEdu Creator trên phần mềm Arduino bằng cách nhấn vào nút Upload hoặc chọn Sketch > Upload sẽ thấy đèn Led L13 trên mạch chớp tắt 1 giây 1 lần:
 
@@ -188,7 +188,7 @@ void loop() {
 }
 ```
 
-![](/temp_link_makercreator/creator8.jpg)
+![](/image/creator8.jpg)
 
 ## Hướng dẫn sử dụng với phần mềm mBlock
 
@@ -214,7 +214,7 @@ void loop() {
 
 3) Nạp chương trình mẫu: Nạp chương trình chớp tắt đèn Led L13 trên mạch MakerEdu Creator với phần mềm Mblock để kiểm tra hoạt động:
 
-![](/temp_link_makercreator/creator9.png)
+![](/image/creator9.png)
 
 ## Hỗ trợ và liên hệ
 
